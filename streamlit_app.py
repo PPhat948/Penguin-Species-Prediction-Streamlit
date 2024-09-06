@@ -52,8 +52,9 @@ input_row = df_penguins[:1]
 target_mapper = {'Adelie': 0 ,
                 'Chinstrap':1,
                 'Gentoo':2}
+
 def target_encode(val):
-  return taget_mapper[val]
+  return target_mapper[val]
 
 y = y_raw.apply(target_encode)
 y
