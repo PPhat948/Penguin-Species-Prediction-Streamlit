@@ -54,7 +54,9 @@ with st.expander('Input features'):
 encode = ['island','sex']
 df_penguins = pd.get_dummies(input_penguins,prefix=encode)
 
+#X is all row except first row
 X = df_penguins[1:]
+#input row is the first row
 input_row = df_penguins[:1]
 
 #Encode Y
@@ -82,5 +84,9 @@ clf.fit(X,y)
 prediction = clf.predict(input_row)
 prediction_proba = clf.predict_proba(input_row)
 
-prediction_proba
-
+df_prediction_proba = pd.DataFrame(prediction_proba)
+df_prediction_proba.columns = {'Adelie','Chinstrap','Gentoo'}
+prediction_proba.rename(columnns={0:'Adelie',
+                                  1:'Chinstrap',
+                                  2:'Gentoo'})
+df_prediction_proba
