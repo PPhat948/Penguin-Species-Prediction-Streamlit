@@ -1,10 +1,6 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# Penguin Species Prediction Web-App
 
-Description of the app ...
-
+This is my first streamlit app that I have learn from https://www.youtube.com/watch?v=LJ6DcLGQ4vY&list=PLZKkga3QZhZOtXJ8PMulqDbNM-1uGT_Uk&index=27
 ## Demo App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
