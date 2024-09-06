@@ -109,7 +109,7 @@ st.dataframe(df_prediction_proba,
                 min_value=0
                 max_value=1
               ),
-              'Gentoo: st.column_config.ProgressColumn(
+              'Gentoo': st.column_config.ProgressColumn(
                 'Gentoo',
                 format = '%f',
                 width='medium',
