@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
-st.title('Machine Learning App')
+st.title('Machine Learning App: Penguin Species Prediction')
 
-st.info('This is app for my machine learning model')
+st.info('This is my first app from learning Streamlit')
 
 with st.expander('Data'): 
   st.write('**Raw Data**')
