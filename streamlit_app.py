@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 st.title('Machine Learning App: Penguin Species Prediction')
 
 st.info('This is my first app from learning Streamlit')
-st.image("penguin.jpg")
+st.image("penguin.gif")
 
 with st.expander('Data'): 
   st.write('**Raw Data**')
