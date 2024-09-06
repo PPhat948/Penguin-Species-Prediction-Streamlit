@@ -118,10 +118,6 @@ st.dataframe(df_prediction_proba,
               ),
             },hide_index=True)
 
-
-
-df_prediction_proba
-
 penguins_species = np.array(['Adelie','Chinstrap','Gentoo'])
 #Display predicted species by compare our prediction (0,1,2) with penguin species
 st.success(str(penguins_species[prediction][0]))
